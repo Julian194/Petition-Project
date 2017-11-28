@@ -2,6 +2,9 @@
 
 ## Summary
 A fun petition that should raise awareness for how many programms and programming languages use elephants nowadays. More important a full stack application as described in the following paragraphs.
+
+See a live demo on <a href="https://nutmeg-petition-elephants.herokuapp.com">`HEROKU`</a>
+
 ## Tech Stack
 * Express.js on Node.js
 * Express Handlebars Templating
@@ -10,7 +13,7 @@ A fun petition that should raise awareness for how many programms and programmin
 
 ## Features
 
-* User registration and user sign-in.
+* User registration and user login.
 
 ![User Sign-Up](petition_register.gif)
 
@@ -18,12 +21,12 @@ A fun petition that should raise awareness for how many programms and programmin
 
 * Users have the option to provide some information about themselves.
 
-![User Info](user_info.gif)
-
 * Users can sign using their mouse pad on the canvas provided.
+
 ![Signature](petition_sign.gif)
 
 * Users can see all signers of the petition and can filter the signers by city.
+
 ![Signers](petition_city_filter.gif)
 
 * Users can update information on their profile.
