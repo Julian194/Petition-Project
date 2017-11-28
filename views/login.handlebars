@@ -1,0 +1,29 @@
+<div class="container-login">
+  <h3>Please login.</h3>
+
+  <form method="post" action="/login">
+
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+    <div class="container-center">
+      <div class="input">
+        <label for="first">Email Address</label>
+        <input name="email" type="email">
+      </div>
+
+      <div class="input">
+        <label for="last">Password</label>
+        <input type="password" name="password">
+      </div>
+    </div>
+
+    <br>
+
+    <div>
+      <button type="submit" class="button"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
+    </div>
+
+    <p id="error">{{error}}</p>
+    
+  </form>
+</div>

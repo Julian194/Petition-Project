@@ -1,0 +1,27 @@
+<div class="container">
+  <h2>Now please tell us just a little bit more about yourself.</h2>
+  <form method="post" action="/profile">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+    <div class="container">
+      <div class="input">
+        <label for="age">Age:</label>
+        <input type="text" name="age">
+      </div>
+
+      <div class="input">
+        <label for="city">City:</label>
+        <input type="text" name="city">
+      </div>
+
+      <div class="input">
+        <label for="homepage">Homepage:</label>
+        <input type="text" name="url">
+      </div>
+
+      <br>
+      
+      <button type="submit" class="button"><i class="fa fa-check-square-o"></i> CONTINUE</button>
+    </div>
+  </form>
+</div>

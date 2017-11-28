@@ -1,0 +1,222 @@
+body {
+  font-family: 'Special Elite', cursive;
+  color: #686868;
+}
+
+html {
+  background: url("../images/background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+a {
+  color: #63CCCA;
+}
+
+form {
+  margin-bottom: 0;
+}
+
+.container {
+  width: 57%;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-smaller-margin {
+  margin-top: 40px;
+}
+
+.container-login {
+  background-color: #F7F7F7;
+  z-index: 999;
+  width: 25%;
+  border-radius: 2px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+  height: 450px;
+}
+
+#signature {
+  border: 1px solid black;
+  display: block;
+  margin: 20px 0 30px 0;
+  background: white;
+}
+
+input {
+  width: 180px;
+  height: 25px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.input {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 5px;
+  align-items: baseline;
+}
+
+label {
+  display: inline-block;
+  text-align: lef
+}
+
+#label {
+  display: inline-block;
+  font-size: 22px;
+  margin: 10px 0 20px 0;
+  font-weight: bold;
+}
+
+#logout-button {
+  margin: auto;
+  display: inline;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  color: #353535;
+}
+
+.button {
+  font-size: 20px;
+  background: transparent;
+  color: #353535;
+  padding: 0 5px;
+  text-transform: none;
+  font-weight: lighter;
+  width: 215px;
+}
+
+.list {
+  text-align: center;
+  list-style: none;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  align-self: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.list li {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #444;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+#link {
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #353535;
+}
+
+#cause {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+#signatureIMG {
+  width: 600px;
+  height: 100px;
+  border: 1px solid #686868;
+  transform: rotate(0deg);
+  position: static;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px #777;
+}
+
+img {
+  z-index: 9999;
+  width: 200px;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 8%;
+}
+
+#img-bottom-1 {
+  transform: rotate(0deg);
+  top: 70%;
+  left: 10%;
+}
+
+#img-bottom-2 {
+  transform: rotate(0deg);
+  top: 75%;
+  left: 25%;
+  width: 150px;
+}
+
+#img-2 {
+  left: 5%;
+  transform: rotate(-25deg);
+}
+
+#img-3 {
+  bottom: 20%;
+  left: -2%;
+  width: 400px;
+  transform: rotate(-15deg);
+}
+
+#img-4 {
+  bottom: 45%;
+  transform: rotate(-15deg);
+  right: 10%;
+}
+
+#img-5 {
+  transform: rotate(0);
+  right: 44%;
+  top: 75%;
+  width: 150px;
+}
+
+#img-6 {
+  right: 36%;
+  top: 65%;
+  transform: rotate(20deg);
+  width: 130px;
+}
+
+#error {
+  color: #F03434;
+  font-size: 20px;
+}
+
+#forwardlink {
+  font-size: 23px;
+}
+
+#button-link {
+  text-decoration: none;
+  color: #353535;
+}
+
+#button-link:hover {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+#user-center {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}

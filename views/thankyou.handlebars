@@ -1,0 +1,21 @@
+
+<div class="container">
+  <h3>Thank you for signing our petition to safe elephants from programmers.</h3>
+  <img id="signatureIMG" src="{{imgURL}}" alt="">
+  <button class="button"><i class="fa fa-users"></i><a id="button-link" href="/petition/signers"> All {{count}} followers  </a></button>
+  <button class="button"  type="submit"><i class="fa fa-pencil"></i><a id="button-link"href="/profile/edit"> Edit user profile</a></button>
+
+  <form action="/deletesignature" method="post">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class="button"  type="submit"><i class="fa fa-trash"></i> Delete Signature</button>
+  </form>
+</div>
+
+<form id ="logout-button" method="post" action="/logout">
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  <button class="button"  type="submit"><i class="fa fa-sign-out"></i> Logout</button>
+  <p id="user-center">User: {{user.first}} {{user.last}}</p>
+</form>
+
+<img id="img-5"src="../public/images/elephant.png" alt="">
+<img id="img-6"src="../public/images/thanks2.png" alt="">

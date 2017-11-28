@@ -1,0 +1,25 @@
+
+<img id="imag1"src="/public/images/php.png" alt="">
+<img id="img-2"src="/public/images/postgres.png" alt="">
+<img id="img-3"src="/public/images/evernote.png" alt="">
+<img id="img-4"src="/public/images/postico.png" alt="">
+
+<div class="container">
+
+  <h1>Save Elephants from Programmers</h1>
+  <p id="cause">You read that right! Nowadays it seems like everyone starts using elephants to make their programs/languages more appealing. This can be very misleading.
+    Moreover it is a heavy burden for our beloved elephants. If you identify with the emphasized cause please go ahead and give us your signature.</p>
+
+  <form method="post" action="/petition">
+
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+    <input type="hidden" name="signature">
+    <p id="label">Signature</p>
+    <canvas id="signature" width="600" height="100"></canvas>
+
+    <button type="submit" class="button"><i class="fa fa-paper-plane-o"></i> Submit</button>
+
+  </form>
+
+</div>

@@ -1,0 +1,59 @@
+<div class="container">
+  <h3>General Account Settings</h3>
+
+  <form method="post" action="/profile/edit">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+      <div class="input">
+        <label for="first">First Name:</label>
+        <input type="text" name="first" value="{{data.first_name}}">
+      </div>
+
+      <div class="input">
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" value="{{data.last_name}}">
+      </div>
+
+      <div class="input">
+        <label for="last">Email Address:</label>
+        <input type="email" name="email" value="{{data.email}}">
+      </div>
+
+      <div class="input">
+        <label for="last">Password:</label>
+        <input type="password" name="password">
+      </div>
+
+      <div class="input">
+        <label for="last">Age:</label>
+        <input type="text" name="age" value="{{data.age}}">
+      </div>
+
+      <div class="input">
+        <label for="last">City:</label>
+        <input type="text" name="city" value="{{data.city}}">
+      </div>
+
+      <div class="input">
+        <label for="last">Homepage:</label>
+        <input type="text" name="url" value="{{data.url}}">
+      </div>
+
+    <br>
+    <button type="submit" class="button"><i class="fa fa-pencil"></i> Update</button>
+  </form>
+
+  <form action="/deleteaccount" method="post">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button type="submit" class="button"><i class="fa fa-trash"></i> Delete Account</button>
+  </form>
+</div>
+
+<form id ="logout-button" method="post" action="/logout">
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  <button class="button"  type="submit"><i class="fa fa-sign-out"></i> Logout</button>
+  <p id="user-center">User: {{user.first}} {{user.last}}</p>
+</form>
+
+<img id="img-bottom-1"src="/../public/images/elephant_icon2.png" >
+<img id="img-bottom-2"src="/../public/images/elephant_icon2.png" >

@@ -1,0 +1,214 @@
+body{
+  font-family: 'Special Elite', cursive;
+  color: #383939;
+}
+
+html {
+  background: url("../images/elephant-1080p-min.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h2{
+  margin-bottom: 0;
+}
+
+h3{
+  margin-top: 30px;
+}
+a{
+  color: #383939;
+}
+
+.login-button{
+  border-color: #444545;
+}
+.container {
+  margin-left: 10px;
+  width: 57%;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-center{
+  margin: auto;
+  width: 57%;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login {
+  margin-left: 190px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+  width: 25%;
+  border-radius: 5px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+  height: 450px;
+}
+
+#signature {
+  border: 1px solid black;
+  display: block;
+  margin: 30px 0 30px 0;
+  background: white;
+}
+
+input{
+  width: 180px;
+  height: 25px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.input{
+  z-index: 9999;
+  width: 200px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#label{
+  font-size: 22px;
+  margin: 10px 0 20px 0;
+  font-weight: bold;
+}
+
+#logout-button {
+  margin: auto;
+  display: inline;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  color:#353535;
+}
+
+.button{
+  font-size: 20px;
+  background: transparent;
+  color: #353535;
+  padding: 0 5px;
+  text-transform: none;
+  font-weight: lighter;
+  width: 215px;
+}
+
+.list {
+  text-align: center;
+  list-style: none;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  align-self: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.list li {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #444;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+#link {
+  font-size: 35px;
+  margin-bottom: 10px;
+  color:#353535;
+}
+
+#cause{
+  font-size: 24px;
+}
+
+#signatureIMG {
+  width:600px;
+  height: 100px;
+  border: 1px solid #686868;
+  transform: rotate(0deg);
+  position: static;
+  margin : 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px #777;
+}
+
+img{
+  z-index: 9999;
+  width: 200px;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 8%;
+}
+
+#img-2 {
+  left: 5%;
+  transform: rotate(-25deg);
+}
+
+#img-3{
+  bottom: 20%;
+  left: 5%;
+  width: 400px;
+  transform: rotate(-15deg);
+}
+
+#img-4{
+  bottom: 45%;
+  transform: rotate(-15deg);
+  right: 13%;
+}
+
+#img-5{
+  transform: rotate(0);
+  right:44%;
+  top: 75%;
+}
+
+#img-6 {
+  right:34%;
+  top: 62%;
+  transform: rotate(20deg);
+}
+
+#error{
+  color:#F03434;
+  font-size: 20px;
+}
+
+#forwardlink {
+  font-size: 23px;
+}
+
+#button-link {
+  text-decoration: none;
+  color: #353535;
+}
+
+#button-link:hover{
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+#user-center{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
